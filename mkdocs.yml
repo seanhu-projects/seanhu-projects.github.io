@@ -1,6 +1,24 @@
 site_name: Sean Hu
+site_url: https://seanhu-projects.github.io
+
+repo_url: https://github.com/seanhu-projects/seanhu-projects.github.io
+repo_name: GitHub
+
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+    - search.share
+
+plugins:
+  - search
 
 nav:
   - Home: index.md
+  - About: about.md
+  - Projects: projects/index.md
+  - Notes: notes/index.md
