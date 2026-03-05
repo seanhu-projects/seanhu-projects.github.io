@@ -295,7 +295,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "mkdocs", specifier = ">=1.6.1" },
+    { name = "mkdocs", specifier = "<2" },
     { name = "mkdocs-material", specifier = ">=9.7.4" },
     { name = "mkdocs-mermaid2-plugin", specifier = ">=1.2.3" },
     { name = "pymdown-extensions", specifier = ">=10.21" },
